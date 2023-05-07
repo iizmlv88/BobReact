@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 20px;
+    background-color: rgb(4, 105, 64);
+    color: rgb(206, 27, 32);
+}
+

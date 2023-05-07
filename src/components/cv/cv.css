@@ -1,0 +1,7 @@
+
+.cv {
+    width: 100%;
+    max-width: 800px;               
+    display: grid;
+    grid-template-columns: auto 3fr;
+}

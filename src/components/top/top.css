@@ -1,0 +1,38 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.name {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+}
+.name>div:nth-child(1){
+    color: #fff;
+    font-size: 14px;
+        font-weight: bolder;
+}
+.name>div:nth-child(2) {
+    font-size: 28px;
+    font-weight: bolder;
+}
+.name>div:nth-child(3) {
+    color: #fff;
+}
+.projectUl > li::marker {
+    color: rgb(206, 27, 32);
+}
+.projectUl>li {
+    color: #fff;
+}
+.projects>div:nth-child(1){
+    /* font-size: 18px;
+        font-weight: bold; */
+        font-size: 22px;
+            font-weight: bolder;
+}

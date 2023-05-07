@@ -1,0 +1,28 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.education>div{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+
+}
+.education>div:nth-child(1){
+    font-size: 22px;
+        font-weight: bolder;
+}
+.education>div:nth-child(2) {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.education>div>div:nth-child(2) {
+    color: rgba(0, 0, 0, 0.441);
+    font-size: 14px;
+        font-weight: bolder;
+}
